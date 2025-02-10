@@ -1,6 +1,13 @@
 from machine import Pin, ADC
 import time
 
+"""
+Reading RPI Pico ADC value in MicroPython
+
+In this exercise you need to implement a program that reads ADC value and blinks the Pico’s onboard LED.
+The frequency of blinking is controlled by the ADC count.
+"""
+
 # set up pin 27 as an analog input
 adc = ADC(Pin(27))
 
