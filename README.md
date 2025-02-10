@@ -1,4 +1,4 @@
-## micropython-rpi-exercises
+## A collection of exercises for Raspberry Pi
 
 ### Binary Numbers to LEDs
 
