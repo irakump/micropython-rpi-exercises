@@ -8,4 +8,9 @@ then the variable is set to zero. By pressing the button repeatedly, you can cyc
 through numbers 0 – 7. In addition to incrementing the variable, the program displays the number
 in binary using the proto board’s LEDs.
 
+### Exercise: ADC to LED blink
 
+Reading RPI Pico ADC value in MicroPython
+
+In this exercise you need to implement a program that reads ADC value and blinks the Pico’s onboard LED.
+The frequency of blinking is controlled by the ADC count.
