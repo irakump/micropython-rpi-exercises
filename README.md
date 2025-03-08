@@ -25,3 +25,31 @@ Then when the button is pressed again the light switches off. The following ASM-
 specifies the state machine operation. Implement the state machine in MicroPython. Use
 SW2 (Pin id: 7) for button and LED3 (Pin id: 20) for lamp. Clock frequency of the state
 machine is 20 Hz (50 ms period)
+
+### State machine alarm system
+
+Design and implement a state machine
+
+An alarm system has two inputs: alarm signal and a button. Alarm signal goes high when
+there is an alarm. Button can be pressed to acknowledge the alarm. There are two outputs:
+red light and siren.
+
+The alarm system works so that initially both light and siren are off.
+• When alarm is activated both lamp and siren go on.
+• When the button is pressed the alarm acknowledged. If the alarm is still active when
+it is acknowledged the siren is switched off and the red light starts to blink. The red
+light keeps on blinking until the alarm is deactivated.
+• If the alarm is deactivated before button has been pressed the siren is switched off
+and red light stays on until user presses button.
+Draw ASM chart of the alarm system and implement it in MicroPython.
+
+For testing we use button for input signals. The buttons are grounding so they read 0 when
+pressed and 1 when NOT pressed. That’s why input signal = 0 indicates active signal in out
+tests.
+
+You have following input signals:
+• Button (0 = pressed): SW2 (Pin id: 7)
+• Alarm (0 = alarm is active), SW0 (Pin id: 9)
+You have following output signals:
+• Red lamp (1 = lamp is on): LED1 (Pin id:22)
+• Siren (1 = siren is on): LED3 (Pin id:20)
