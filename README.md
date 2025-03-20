@@ -1,4 +1,4 @@
-# Exercises for Raspberry Pi Pico W and Educational Development Board
+# Exercises for Raspberry Pi Pico W and Development Board
 
 ## [ADC to LED blink](https://github.com/irakump/micropython-rpi-exercises/blob/main/adc_to_led_blink.py)
 
