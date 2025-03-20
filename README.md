@@ -15,7 +15,7 @@ then the variable is set to zero. By pressing the button repeatedly, you can cyc
 through numbers 0 – 7. In addition to incrementing the variable, the program displays the number
 in binary using the proto board’s LEDs.
 
-## OLED line drawing buttons
+## OLED line drawing buttons 
 
 Implement a program that uses the three development board buttons to control line drawing. When the
 program starts, it starts to draw pixels from the left side of the screen halfway between top and bottom
