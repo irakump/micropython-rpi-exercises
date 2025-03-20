@@ -11,6 +11,7 @@ right edge of the screen, the drawing is wrapped back to the left side. Buttons 
 move the pixels towards the top or bottom of the screen, so that by pressing buttons you can draw lines
 at different heights. Pressing SW1 clears the screen and continues drawing from middle left side.
 """
+
 button0 = Pin(9, Pin.IN, Pin.PULL_UP) # SW0
 button1 = Pin(8, Pin.IN, Pin.PULL_UP) # SW1
 button2 = Pin(7, Pin.IN, Pin.PULL_UP) # SW2
