@@ -1,4 +1,4 @@
-# Exercises for Raspberry Pi Pico W and Metropolia Development Board
+# Exercises for Raspberry Pi Pico W and Metropolia Dev Board
 
 ## [ADC to LED blink](https://github.com/irakump/micropython-rpi-exercises/blob/main/adc_to_led_blink.py)
 
