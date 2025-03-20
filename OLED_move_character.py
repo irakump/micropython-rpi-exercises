@@ -3,7 +3,6 @@ from machine import UART, Pin, I2C, Timer, ADC
 from ssd1306 import SSD1306_I2C
 
 """
-Task 1.1
 Implement a program that uses the two development board buttons to control a “UFO”. The UFO is
 shown at the bottom of the screen with characters “<=>”. SW0 and SW2 are used to move the UFO left
 and right. The program must stop the UFO at the edges of the screen so that it is completely visible.
