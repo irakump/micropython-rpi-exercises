@@ -3,7 +3,6 @@ from machine import UART, Pin, I2C, Timer, ADC
 from ssd1306 import SSD1306_I2C
 
 """
-Task 1.3
 Implement a program that uses the three development board buttons to control line drawing. When the
 program starts, it starts to draw pixels from the left side of the screen halfway between top and bottom
 of the screen and constantly moves towards the right edge of the screen. When the drawing reaches the
