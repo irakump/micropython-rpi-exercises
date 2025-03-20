@@ -1,13 +1,13 @@
-## A collection of exercises for Raspberry Pi
+# A collection of exercises for Raspberry Pi
 
-### ADC to LED blink
+## ADC to LED blink
 
 Reading RPI Pico ADC value in MicroPython
 
 In this exercise you need to implement a program that reads ADC value and blinks the Pico’s onboard LED.
 The frequency of blinking is controlled by the ADC count.
 
-### Binary Numbers to LEDs
+## Binary Numbers to LEDs
 
 Your task is to write a program that waits for the user to press a button on the proto board.
 When the user presses the button, a variable is incremented by one. If the value is over seven,
@@ -15,7 +15,7 @@ then the variable is set to zero. By pressing the button repeatedly, you can cyc
 through numbers 0 – 7. In addition to incrementing the variable, the program displays the number
 in binary using the proto board’s LEDs.
 
-### OLED line drawing buttons
+## OLED line drawing buttons
 
 Implement a program that uses the three development board buttons to control line drawing. When the
 program starts, it starts to draw pixels from the left side of the screen halfway between top and bottom
@@ -24,7 +24,7 @@ right edge of the screen, the drawing is wrapped back to the left side. Buttons 
 move the pixels towards the top or bottom of the screen, so that by pressing buttons you can draw lines
 at different heights. Pressing SW1 clears the screen and continues drawing from middle left side.
 
-### OLED move character
+## OLED move character
 
 Implement a program that uses the two development board buttons to control a “UFO”. The UFO is
 shown at the bottom of the screen with characters “<=>”. SW0 and SW2 are used to move the UFO left
@@ -32,14 +32,14 @@ and right. The program must stop the UFO at the edges of the screen so that it i
 When UFO is at left edge it must only be possible to move the UFO right and vice versa.
 The font size is 8x8 pixels.
 
-### OLED text input list
+## OLED text input list
 
 Implement a program that reads user input from the keyboard in an infinite loop. The input is typed in
 Thonny Shell window while the program is running. The user input is drawn to the OLED screen starting
 from the top of the screen. Each input is drawn below the previous one. When the screen is full the
 display is scrolled up by one line and then new text is drawn at the bottom of the screen.
 
-### State machine alarm system
+## State machine alarm system
 
 Design and implement a state machine
 
@@ -60,7 +60,7 @@ For testing we use button for input signals. The buttons are grounding so they r
 pressed and 1 when NOT pressed. That’s why input signal = 0 indicates active signal in out
 tests.
 
-### State machine LED control
+## State machine LED control
 
 Implement an ASM chart in Python
 
