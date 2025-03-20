@@ -3,7 +3,6 @@ from machine import UART, Pin, I2C, Timer, ADC
 from ssd1306 import SSD1306_I2C
 
 """
-Task 1.2
 Implement a program that reads user input from the keyboard in an infinite loop. The input is typed in
 Thonny Shell window while the program is running. The user input is drawn to the OLED screen starting
 from the top of the screen. Each input is drawn below the previous one. When the screen is full the
